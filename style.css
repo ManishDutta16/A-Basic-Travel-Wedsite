@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    margin:auto;
+    padding:25px;
+    max-width: 80%;
+}
+.container h1{
+    text-align: center;
+    color:rgb(78, 39, 1);
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 40px;
+}
+.container h2{
+    text-align: center;
+    color:rgb(177, 108, 4);
+    font-family: 'Borel', cursive;
+    font-size: 25px;
+}
+.container p{
+    text-align: center;
+    color:rgb(85, 48, 4);  
+    font-size: 20px;
+    font-family:Times New Roman;
+}
+#submit{
+    color:rgb(93, 255, 142);
+    font-size: 25px;
+    font-family:cursive;
+}
+
+#submit1{
+    color:rgb(255, 93, 93);
+    font-size: 25px;
+    font-family:cursive;
+}
+
+input, textarea{
+    position:relative;
+    width:80%;
+    margin: 6px auto;
+    padding: 4px;
+    font-size: 15px;
+    border: 2px;
+    border-radius: 10px;
+    border-color: bisque;
+    outline: none;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    color:rgb(10, 9, 9);
+    background-color: rgb(250, 223, 134);
+    padding:9px 10px;
+    font-size: 20px;
+    border: 2px;
+    border-radius: 20px;
+    border-color: rgb(249, 255, 255);
+    cursor: pointer;
+    font-family: 'Lumanosimo', cursive;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity:0.9;
+}
